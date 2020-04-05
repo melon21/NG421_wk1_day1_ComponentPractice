@@ -10,6 +10,7 @@ export class TasksPanelComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.tasks=tasks;
   }
 
 }
